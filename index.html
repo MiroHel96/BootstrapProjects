@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Solar Fitness</title>
+    <style>
+      html {
+          scroll-behavior: smooth;
+      }
+  </style>
+  </head>
+  <body>
+
+  <!---Nav Bar-->
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark border-warning border-bottom sticky-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="#"
+          >Solar Fitness - treenaa omalla tyylilläsi</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#jasenyys">Jäsenyys</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#keskukset">Kuntokeskuksemme</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#aspalvelu">Asiakaspalvelu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#yhteystiedot">Yhteystiedot</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!--Everything else --->
+
+  <main class="bg-dark">
+
+
+  <!--Banner/intro teksti ja kuva-->
+  <section>
+        <div class="col container-fluid bg-dark text-center ">
+          <div class="col">
+            <h1 class="display-1 text-warning d-flex justify-content-center pb-5 pt-5 ">
+              Solar Fitness 
+            </h1>
+              </div>
+          <div class="col">
+              <img
+                class="img-thumbnail mb-5  "
+                src="Kuntosali\keskukset\Photo by Tima Miroshnichenko httpswww.pexels.comphotoweight-plates-in-close-up-shot-6389853.jpg"
+                alt="kuntosali, jossa levypainoja"
+              />
+            </div>
+          </div>
+  </section>
+
+  <!-- Jumbotron / kuntosalin esittely/tarina-->
+
+  <section>
+      <div class="bg-warning text-dark mt-5 mb-5 text-center pb-5 pt-5">
+        <h2 class="text-center display-2">Enemmän kuin kuntosali</h2>
+        <p class>
+          Solar Fintess on vuonna 2021 perustettu kuntosaliketju, jonka tavoitteena on tarjota parasta palvelua kaiken tasoisile treenaajille. 
+        </p>
+        <h3 class="display-2 mt-5">Meidän tarinamme</h3>
+        <p class="">
+          Meidän tarinamme lähti pitkän haaveilun jälkeen toteutukseen ja se kannatti. Olemme avanneet jo kolme kuntosalia pääkaupunkiseudulle ja tulevaisuudessa tavoitteemme on laajentaa toimintaamme koko Suomen alueella.
+        </p>
+      </div>
+  </section>
+
+   <!--Kuva, lisäämään sivulle visuaalisuutta -->
+     
+  <section>
+        <div class="container-fluid">
+          <img
+            src="Kuntosali\keskukset\Photo by Ivan Samkov httpswww.pexels.comphotoblack-weight-plates-4164451.jpg"
+            alt="Kuntokeskus levypainoteline"
+            class="img-thumbnail mt-5 mb-5 "
+          />
+        </div>
+  </section>
+      
+
+  <!--Jäsenyys kuvattuna yleisesti-->
+
+  <section id="jasenyys">
+      <div class="container-fluid mb-5 mt-5 pb-5 pt-5">
+        <div class="bg-dark text-white text-center">
+          <h1 class="display-2">Jäsenyys</h1>
+          <p>
+            Meillä Solar Fitness:sillä voit valita jäsenyyden omaan
+            aikatauluusi sopivaksi. Oletpa sitten vasta-alkaja tai kokenut
+            treenaaja meidän jäsenyysvaihtoehdoista löytyy varmasti jokaiselle
+            jotain. Meillä voit tulla kokeilemaan treenaamista vastaanoton
+            aukiolojen aikana. Uskomme, että tällöin voimme luoda parhaimman
+            asikaskokemuksen kuntosaleillamme.
+          </p>
+          <p class="mt-5 display-5">Jäsenyytemme:</p>
+        </div>
+      </div>
+  </section>
+
+  <!--Card / eri jäsenyydet kortteina-->
+
+  <section>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header bg-warning">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseOne"
+              >Pronssi</a>
+            </div>
+            <div
+              id="collapseOne"
+              class="collapse show bg-basic text-dark"
+              data-bs-parent="#accordion">
+              <div class="card-body ">
+                Pronssi -jäsennyydellä saat pääsyn yhteen kuntokeskukseen
+                aikavälillä 05-22. Pakettiin kuuluu myös yksi tapaamiskerta
+                personal-trainerin kanssa.
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="card-header bg-warning">
+              <a
+                class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">Hopea</a>
+            </div>
+            <div
+              id="collapseTwo"
+              class="collapse bg-basic text-dark"
+              data-bs-parent="#accordion">
+              <div class="card-body"> Hopea -tason jäsenyydellä saat pääsyn yhteen kuntosaliin 24/7. Paketti sisältää myös kolme sovittua tapaamista personal-trainerin kanssa.
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="card-header bg-warning">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree"> Kulta </a>
+            </div>
+            <div
+              id="collapseThree" class="collapse bg-basic text-dark" data-bs-parent="#accordion">
+              <div class="card-body">
+                Kulta -tason jäsenyydellä saat pääsyn kaikkiin
+                kuntokeskuksiimme 24/7. Paketti sisältää myös viisi tapaamista
+                personal-trainerin kanssa ja henkilökohtaisen
+                ravintokatsauksen.
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!--Kuntokeskukset, yleinen esittely keskuksista-->
+
+  <section id="keskukset">
+      <div class="container-fluid bg-dark text-white mb-5 mt-5 pb-5 pt-5">
+        <div class="container-fluid bg-dark text-white">
+          <div class="mt-4 p-5 bg-dark text-white">
+            <h1 class="text-center display-2">Kuntokeskuksemme</h1>
+            <p class="text-center">
+              Meiltä löytyy kolme erikokoista kuntokeskusta Uudenmaan alueelta,
+              jokainen kuntokeskus on varustettu seuraavia tarpeita varten:
+              ryhmäliikunta, powerlifting, kuntosali, sauna, venyttely, jooga ja
+              ruokailutilat.
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--Jumbotron, kuvaukset kuntokeskuksista-->
+    
+  <section>
+      <div class="container-fluid mt-4 p-5 bg-warning text-dark text-center Jumbotron">
+            <div>
+              <h1>Helsinki</h1>
+              <p>Helsingin sali on meidän vanhin, joka on perustettu vuonna
+                2021. Kuntosali loistaa silti vahavana Espoon ja Vantaan
+                rinnalla</p>
+            </div>
+              <div>
+                <h1>Espoo</h1>
+              <p>Espoon sali on meidän toisena avattu sali vuonna 2023 ja
+                se on myös meidän suurin kuntosali, jossa on puitteet
+                laajalle harjoittelulle.</p>
+              </div>
+            <div>
+              <h1>Vantaa</h1>
+              <p>Vantaan kuntosali on meidän uusin ja se on avattu 2024.
+                Sali on moderni ja sisältää laitteet sekä tilat
+                viimeisimmillä uutuuksilla.</p>
+            </div>
+        </div>
+  </section>
+
+  <!--Karuselli-->
+
+  <section>
+          <div id="karuselli" class="carousel slide mb-5 mt-5" data-bs-ride="carousel">
+
+  <!-- Painikkeet-->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#karuselli" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#karuselli" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#karuselli" data-bs-slide-to="2"></button>
+            </div>
+            
+  <!-- Kuvien slideshow-->
+
+            <div class="carousel-inner img-thumbnail">
+              <div class="carousel-item active">
+                <img src="Kuntosali\keskukset\Photo by cottonbro studio httpswww.pexels.comphotoa-dumbbell-on-the-floor-7690454.jpg" alt="Los Angeles" class="d-block img-fluid" style="width:100%">
+                <div class="carousel-caption">
+                  <h3>Helsinki</h3>
+                  <p>Perustettu 2021</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Kuntosali\keskukset\Photo by Tima Miroshnichenko httpswww.pexels.comphotopeople-dark-rope-sport-6389856.jpg" alt="Chicago" class="d-block img-fluid" style="width:100%">
+                <div class="carousel-caption">
+                  <h3>Espoo</h3>
+                  <p>Perustettu 2023</p>
+                </div> 
+              </div>
+              <div class="carousel-item">
+                <img src="Kuntosali\keskukset\Photo by cottonbro studio httpswww.pexels.comphotoclose-up-view-of-a-black-rope-and-a-black-tire-7671467.jpg" alt="New York" class="d-block img-fluid" style="width:100%">
+                <div class="carousel-caption">
+                  <h3>Vantaa</h3>
+                  <p>Perustettu 2024</p>
+                </div>  
+              </div>
+            </div>
+            
+  <!-- painnikkeiden ohjaukset -->
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#karuselli" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#karuselli" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>  
+  </section>
+
+  <!--Jumbotron, asiakaspalvelu-->
+            
+  <section id="aspalvelu">
+            <div class="mt-4 p-5 bg-dark text-white text-center ">
+              <h1 class="display-2">Asiakaspalvelumme</h1>
+                <p>
+                Alta löydät meidän kuntokeskuksiemme valmentajat ja
+                asiakaspalvelijat, jotka vastaavat mielellään teidän kysymykyksiinne. Olkaa rohkeasti yhteydessä heihin!
+                </p>
+            </div>
+  </section>
+    
+
+  <!--Cards / Henkilöprofiilit-->
+          
+
+  <section>
+          <style>
+            .card-img-top {
+              height: 85%; /* Set your desired height */
+              object-fit: cover; /* Ensures the image covers the specified height and width */
+            }
+          </style>
+
+  <!--Kortti1-->
+
+            <div class="container-fluid text-white mb-5 mt-5">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center ">
+                  <div class="card" style="width: 400px">
+                    <img
+                      class="card-img-top img-thumbnail"
+                      src="Kuntosali\henkilot\Photo by Kuldeep  Singhania httpswww.pexels.comphotoman-holding-black-dumbbells-2105493.jpg"
+                      alt="Card image"
+                    />
+                    <div class="card-body bg-warning text-dark">
+                      <h4 class="card-title">Oscar</h4>
+                      <p class="card-text">Miehet ja naiset</p>
+                      <p class="card-text">
+                        Koulutettu Personal-Trainer sekä urheiluhieroja
+                      </p>
+                      <a
+                        href="#kortit1"
+                        data-bs-toggle="collapse"
+                        class="btn btn-dark"
+                        >Palveluhinnasto</a
+                      >
+                      <div id="kortit1" class="collapse mt-3">
+                        <p>
+                          Moi Olen Oscar ja toimin kaikkien Solar Fitness
+                          -kuntosalien urheiluhierojana. Tarjoan myös
+                          henkilökohtaista valmennusta sitä tarvitseville.
+                          Olethan luonteeltasi tekijä ja et luovuta ensimmäisen
+                          vastoinkäymisen jälkeen. Tervetuloa valmennukseeni!
+                        </p>
+                        <p>Henkilökohtainen ohjaus 110€ per tapaaminen</p>
+                        <p>Urheilhieronta 30min 45€</p>
+                        <p>Uhreiluhieronta 1H 70€</p>
+                        <p>Oscar@SolarFitness.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+  <!--Kortti2-->
+
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+                  <div class="card" style="width: 400px">
+                    <img
+                      class="card-img-top img-thumbnail"
+                      src="Kuntosali\henkilot\Photo by Leon Ardho httpswww.pexels.comphotophoto-of-woman-working-out-using-gym-equipment-inside-gym-1717097.jpg"
+                      alt="Card image"
+                    />
+                    <div class="card-body bg-warning text-dark">
+                      <h4 class="card-title">Liisa</h4>
+                      <p class="card-text">Miehet ja naiset</p>
+                      <p class="card-text">Ryhmäliikunta ja fysioterapia</p>
+                      <a
+                        href="#kortit2"
+                        data-bs-toggle="collapse"
+                        class="btn btn-dark"
+                        >Palveluhinnasto</a
+                      >
+                      <div id="kortit2" class="collapse mt-3">
+                        <p>
+                          Hei! Olen Liisa ja hoidan lähtökohtaisesti Espoon ja
+                          Helsinging kuntosalien ryhmäliikuntaohjaukset ja
+                          samalla tarjoan fysioterapeutti -palveluita
+                          tarvittaessa henkilökohtaisia tarpeitasi varten.
+                          Tervetuloa tutustumaan ryhmäliikuntaan, odotan innolla
+                          uusia kasvoja!
+
+                        <p>Ryhmäliikunta:</p>
+                        <p>Kokeilukäynti - ilmainen</p>
+                        <p>Kertakäynti - 10€ </p>
+                        <p>5 x kortti - 35€</p>
+                        </p>
+
+                        <p>Liisa@SolarFitness.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+  <!--Kortti3-->
+
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+                  <div class="card" style="width: 400px">
+                    <img
+                      class="card-img-top img-thumbnail"
+                      src="Kuntosali\henkilot\Photo by Mister Mister httpswww.pexels.comphotoman-sitting-on-flat-bench-3490348.jpg"
+                      alt="Card image"
+                    />
+                    <div class="card-body bg-warning text-dark">
+                      <h4 class="card-title">Joel</h4>
+                      <p class="card-text">Miehet ja naiset</p>
+                      <p class="card-text">
+                        Koulutettu personal trainer ja ravinto-ohjaaja
+                      </p>
+                      <a
+                        href="#kortit3"
+                        data-bs-toggle="collapse"
+                        class="btn btn-dark"
+                        >Palveluhinnasto</a
+                      >
+                      <div id="kortit3" class="collapse mt-3">
+                        <p>Hei! Olen Joel toimin personal trainerina Solar
+                        Fitnessillä ja luon asiakastarpeiden mukaan
+                        ravinto-ohjelmia halukkaille.</p>
+                        <p>Henkilökohtainen ravintohojelma 50€</p>
+                        <p>Henkilökohtainen ohjaus 110€ per tapaaminen</p>
+                        <p>Joel@SolarFitness.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+  <!--Kortti4-->
+
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+                  <div class="card" style="width: 400px">
+                    <img
+                      class="card-img-top img-thumbnail"
+                      src="Kuntosali\henkilot\Photo by Scott Webb httpswww.pexels.comphotowoman-hanging-on-gym-equipment-on-focus-photo-136405.jpg"
+                      alt="Card image"
+                    />
+                    <div class="card-body bg-warning text-dark">
+                      <h4 class="card-title">Jasmin</h4>
+                      <p class="card-text">
+                        Miehet, naiset, nuoret ja seniorit
+                      </p>
+                      <p class="card-text">Keskusvastaava ja ryhmäliikunta</p>
+                      <a
+                        href="#kortit4"
+                        data-bs-toggle="collapse"
+                        class="btn btn-dark"
+                        >Palveluhinnasto</a
+                      >
+                      <div id="kortit4" class="collapse mt-3">
+                        <p>Moi, olen Jasmin ja toimin Solar Fitness -keskuksien
+                        vastaavana henkilönä ja hoidan samalla ryhmäliikuntojen
+                        vetämisiä. Ota rohkeasti yhteyttä ja katsotaan sinulle
+                        sopiva liikuntamuoto!
+                        </p>
+                        <p>Ryhmäliikunta:</p>
+                        <p>Kokeilukäynti - ilmainen</p>
+                        <p>Kertakäynti - 10€ </p>
+                        <p>5 x kortti - 35€</p>
+                        </p>
+                        <p>Jasmin@SolarFitness.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+  </section>
+        
+  <!--Jumbotron / Yhteystiedot salille-->
+        
+  <section id="yhteystiedot">
+          <div class="bg-warning text-dark text-center pb-5 pt-5 mt-5 mb-5">
+            <h1 class="display-2">Yhteystiedot</h1>
+              <p>
+                Alta löydät kuntokeskuksien aukioloajat sekä vastaanottojen
+                päivystysajat
+              </p>
+          </div>
+
+  </section>
+
+  <!--Table / Taulukko, keskus, osoite, aukiolo -->
+
+  <section>
+          <div class="container mt-3 bg-dark text-white text-center p-5">
+            <h1>Kuntokeskukset</h1>
+            <table class="table table-dark table-hover">
+              <thead>
+                <tr>
+                  <th>Keskus</th>
+                  <th>Osoite</th>
+                  <th>Aukiolo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Espoo</td>
+                  <td>Espoon kartanontie 1, 00123 Espoo</td>
+                  <td>24/7 Kulkukortilla</td>
+                </tr>
+                <tr>
+                  <td>Helsinki</td>
+                  <td>Vanhantorin kauppa-aukio 4, 00234 Helsinki</td>
+                  <td>24/7 Kulkukortilla</td>
+                </tr>
+                <tr>
+                  <td>Vantaa</td>
+                  <td>Kuusimetsäntie 35, 00985 Vantaa</td>
+                  <td>24/7 Kulkukortilla</td>
+                </tr>
+              </tbody>
+            </table>
+
+  </section>
+
+  <!--Table / taulukko vastaanoton aukiolot -->
+
+  <section>
+          <div class="container mt-3 bg-dark text-white text-center p-5">
+            <h1>Vastaanoton aukiolot</h1>
+            <table class="table table-dark table-hover">
+              <thead>
+                <tr>
+                  <th>Ma-Ke</th>
+                  <th>To-Pe</th>
+                  <th>La</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>15-19</td>
+                  <td>16-20</td>
+                  <td>11-15</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+  </section>
+
+  <!--Otsikko / keskuksen numerovaihde-->
+  
+  <section>
+          <h1 class="text-white text-center mt-5 mb-5 display-5">Vaihteen numero: 000 123 456 </h1>
+  </section>
+
+  <!--Jumbotron / kysyttävää-->
+
+  <section>
+          <div class="mt-4 p-5 bg-warning text-dark text-center">
+            <h1 class="display-2">Kysyttävää?</h1>
+            <p>Laita meille sähköpostia!</p>
+          </div>
+
+  </section>
+
+  <!--Form / yhteydenottolomake, lomake ei toimi, koska en tässä harjoituksessa toteuta lomakkeen taustalla olevia ominaisuuksia. Lomake on lisätty vain esteettisen syyn takia. -->
+          
+  <section>
+      <div class="container mt-5 text-white">
+        <h2>Laita meille viestiä!</h2>
+      <form action="/action_page.php">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nimesi:</label>
+          <input type="name" class="form-control" id="name" placeholder="Nimi" name="nimi">
+        </div>
+        <div class="mb-3 mt-3">
+          <label for="email" class="form-label">Sähköpostiosoitteesi:</label>
+          <input type="email" class="form-control" id="email" placeholder="S-posti osoite" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="comment">Viestisi</label>
+          <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+        </div>
+        <button type="submit" class="btn btn-warning">Lähetä</button>
+      </form>
+      </div>
+  </section>
+
+    </main>
+  </body>
+</html>
